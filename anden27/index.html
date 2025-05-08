@@ -1,110 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    header { display: flex; justify-content: space-between; align-items: center;}
-    nav ul { list-style: none; display: flex; margin: 0; padding: 0;}
-    nav li { margin-right: 10px;}
-    form { display: flex;}
-    li ul {
-      display: none;
-    }
 
-    li:hover ul {
-      display: block;
-    }
-    header {
-      position: relative;
-    }
-  </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header>
-    <nav>
-      <ul>
-      <li>
-        <a href="#">ESPAÑA</a>
-        <ul>
-          <li><a href="#">ANDALUCÍA</a></li>
-          <li><a href="#">ARAGÓN</a></li>
-          <li><a href="#">ASTURIAS</a></li>
-          <li><a href="#">CANTABRIA</a></li>
-          <li><a href="#">CASTILLA LA MANCHA</a></li>
-          <li><a href="#">CASTILLA Y LEÓN</a></li>
-          <li><a href="#">CATALUÑA</a></li>
-          <li><a href="#">COMUNIDAD VALENCIANA</a></li>
-          <li><a href="#">GALICIA</a></li>
-          <li><a href="#">ISLAS BALEARES</a></li>
-          <li><a href="#">LA RIOJA</a></li>
-          <li><a href="#">MADRID</a></li>
-          <li><a href="#">NAVARRA</a></li>
-          <li><a href="#">PAÍS VASCO</a></li>
-        </ul>
-      </li>
-      <ul>
-        <li>
-          <a href="#">EUROPA</a>
-          <ul>
-            <li><a href="#">ALEMANIA</a></li>
-            <li><a href="#">ANDORRA</a></li>
-            <li><a href="#">AUSTRIA</a></li>
-            <li><a href="#">BÉLGICA</a></li>
-            <li><a href="#">DINAMARCA</a></li>
-            <li><a href="#">FRANCIA</a></li>
-            <li><a href="#">HOLANDA</a></li>
-            <li><a href="#">HUNGRIA</a></li>
-            <li><a href="#">ITALIA</a></li>
-            <li><a href="#">NORUEGA</a></li>
-            <li><a href="#">PORTUGAL</a></li>
-            <li><a href="#">REPÚBLICA CHECA</a></li>
-            <li><a href="#">SUECIA</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">MUNDO</a>
-          <ul>
-            <li><a href="#">NORTEAMÉRICA</a></li>
-            <li><a href="#">SUDAMÉRICA</a></li>
-            <li><a href="#">ASIA</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">COMER Y DORMIR</a>
-          <ul>
-            <li><a href="#">RESTAURANTES</a></li>
-            <li><a href="#">HOTELES</a></li>
-            <li><a href="#">PARADORES</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Y ADEMÁS...</a>
-          <ul>
-            <li><a href="#">IDEAS PARA VIAJES</a></li>
-            <li><a href="#">PATRIMONIO DE LA HUMANIDAD</a></li>
-            <li><a href="#">LAS LISTAS DE ANDÉN 27</a></li>
-            <li><a href="#">RECORRIDOS</a></li>
-            <li><a href="#">MUSEOS</a></li>
-            <li><a href="#">CURIOSIDADES VIAJERAS</a></li>
-          </ul>
-        </li>
-      </ul>
-      </ul></nav><form action="/buscar" method="get">
-        <input type="search" name="BUSCAR" placeholder="BUSCAR">
-      </form>
-  </header>
-  </nav>
-  <img src="assets/anden-27-cabecera.png" alt="imagen de cabecera">
-<h1>Blog de viajes y fotografía</h1>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">ESPAÑA</a>
+                    <ul>
+                        <li><a href="#">ANDALUCÍA</a></li>
+                        <li><a href="#">ARAGÓN</a></li>
+                        <li><a href="#">ASTURIAS</a></li>
+                        <li><a href="#">CANTABRIA</a></li>
+                        <li><a href="#">CASTILLA LA MANCHA</a></li>
+                        <li><a href="#">CASTILLA Y LEÓN</a></li>
+                        <li><a href="#">CATALUÑA</a></li>
+                        <li><a href="#">COMUNIDAD VALENCIANA</a></li>
+                        <li><a href="#">GALICIA</a></li>
+                        <li><a href="#">ISLAS BALEARES</a></li>
+                        <li><a href="#">LA RIOJA</a></li>
+                        <li><a href="#">MADRID</a></li>
+                        <li><a href="#">NAVARRA</a></li>
+                        <li><a href="#">PAÍS VASCO</a></li>
+                    </ul>
+                </li>
+                <ul>
+                    <li>
+                        <a href="#">EUROPA</a>
+                        <ul>
+                            <li><a href="#">ALEMANIA</a></li>
+                            <li><a href="#">ANDORRA</a></li>
+                            <li><a href="#">AUSTRIA</a></li>
+                            <li><a href="#">BÉLGICA</a></li>
+                            <li><a href="#">DINAMARCA</a></li>
+                            <li><a href="#">FRANCIA</a></li>
+                            <li><a href="#">HOLANDA</a></li>
+                            <li><a href="#">HUNGRIA</a></li>
+                            <li><a href="#">ITALIA</a></li>
+                            <li><a href="#">NORUEGA</a></li>
+                            <li><a href="#">PORTUGAL</a></li>
+                            <li><a href="#">REPÚBLICA CHECA</a></li>
+                            <li><a href="#">SUECIA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">MUNDO</a>
+                        <ul>
+                            <li><a href="#">NORTEAMÉRICA</a></li>
+                            <li><a href="#">SUDAMÉRICA</a></li>
+                            <li><a href="#">ASIA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">COMER Y DORMIR</a>
+                        <ul>
+                            <li><a href="#">RESTAURANTES</a></li>
+                            <li><a href="#">HOTELES</a></li>
+                            <li><a href="#">PARADORES</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Y ADEMÁS...</a>
+                        <ul>
+                            <li><a href="#">IDEAS PARA VIAJES</a></li>
+                            <li><a href="#">PATRIMONIO DE LA HUMANIDAD</a></li>
+                            <li><a href="#">LAS LISTAS DE ANDÉN 27</a></li>
+                            <li><a href="#">RECORRIDOS</a></li>
+                            <li><a href="#">MUSEOS</a></li>
+                            <li><a href="#">CURIOSIDADES VIAJERAS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+        <form action="/buscar" method="get">
+            <input type="search" name="BUSCAR" placeholder="BUSCAR">
+        </form>
+    </header>
+    </nav>
+    <img src="assets/anden-27-cabecera.png" alt="imagen de cabecera">
+    <h1>Blog de viajes y fotografía</h1>
+    <a href="#inicio">INICIO</a>
+    <a href="#sobremi">SOBRE MI</a>
+    <a href="#servicios">COLABORACIONES</a>
+
 </body>
+
 </html>
 
 Blog de viajes y fotografía

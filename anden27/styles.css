@@ -1,0 +1,24 @@
+header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative;
+}
+nav ul { 
+    list-style: none; 
+    display: flex; 
+    margin: 0; 
+    padding: 0;
+}
+nav li { 
+    margin-right: 10px;
+}
+header form { 
+    display: flex;
+ }
+nav li ul {
+    display: none;
+}
+nav li:hover ul {
+    display: block;
+}
