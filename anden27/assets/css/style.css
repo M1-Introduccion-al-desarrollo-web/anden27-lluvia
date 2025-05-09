@@ -144,12 +144,7 @@ main {
     font-size: 35px;
     line-height: normal;
     letter-spacing: 5px;
-    text-align: center;
-    
-    
-    
-   
-    
+    text-align: center; 
 }
 
 .text-formateado {
@@ -241,17 +236,6 @@ main {
     margin-top: 15px;
  }
     
-   
-    
-
-
-
-
-
-
-
-
- 
 /* Comments section css */
 
 /* Aside css */
