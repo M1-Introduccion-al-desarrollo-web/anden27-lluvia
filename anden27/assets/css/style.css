@@ -1,3 +1,9 @@
+
+
+    
+   
+
+
 /* Header css */
 header {
     display: flex;
@@ -34,6 +40,124 @@ header {
 
 /* Main css */
 
+.fecha {
+    color:  #848484;
+
+}
+.titulo-principal  {
+    background-color:  #e6edf7;
+    color:  #848484;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-align: center;
+    
+    
+    
+   
+    
+}
+
+.text-formateado {
+    font-family: "Open Sans";
+    font-size: 15.4px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #666666;
+    padding: 20px;
+    white-space: pre-wrap; 
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+imagen {
+     display: block;
+     margin: 20px auto;
+     max-width: 100%;
+}
+
+.pie-imagen {
+    text-align: center;
+    font-size: 13px;
+    color: #999999;
+    font-family: "Open Sans" sans-serif;
+    margin-top: -10px;
+    }
+    
+.text-formateado {
+    font-family: "Open Sans";
+    font-size: 15.4px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #666666;
+    padding: 20px;
+    white-space: pre-wrap; 
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.imagen {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.pie-imagen {
+    text-align: center;
+    font-size: 13px;
+    color: #999999;
+    font-family: "Open Sans" sans-serif;
+    margin-top: -10px;
+}
+
+.text-formateado {
+    font-family: "Open Sans";
+    font-size:  15.4px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: justify;
+
+}
+   .etiquetas {
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 15.4px;
+    color: #666666;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    
+    
+ }
+ .etiquetas a {
+    color: #66b3ff;
+    text-decoration: none;
+    margin-left: 5px;
+
+ }
+
+ .etiquetas a:hover {
+    text-decoration:  underline;
+ }
+
+ .line-punteada {
+    border-top: 4px dotted;
+    margin-top: 15px;
+ }
+    
+   
+    
+
+
+
+
+
+
+
+
+ 
 /* Comments section css */
 
 /* Aside css */
