@@ -64,6 +64,7 @@ nav li:hover ul {
 
 body {
     padding-top: 60px;
+    margin: 0% 25%;
 }
 
 nav a {
@@ -164,7 +165,7 @@ main {
     margin: 30px auto;
 }
 
-imagen {
+.imagen {
      display: block;
      margin: 20px auto;
      max-width: 100%;
