@@ -1,5 +1,13 @@
+/* Reset css */
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf7f7;
+}
+
 /* Header css */
-header {
+/* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,12 +38,88 @@ li:hover ul {
 
 header {
     position: relative;
-}
+} */
 
 /* Main css */
 
 /* Comments section css */
 
 /* Aside css */
+
+.aside {
+    display: flex;
+    flex-direction: column;
+
+}
+.aside-title {
+    font-weight: bold;
+    background-color: #eda0c7;
+    color: #d93d8b;
+    align-items: center;
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.aside-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aside-content li {
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.aside-submenu { 
+    text-align: center;
+}
+
+
+.aside-content a {
+    text-decoration: none;
+    color: #3399ff;
+}
+
+.aside-content a span {
+    color: #a1a1a1;
+}
+
+.aside-entry {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.aside-entry img {
+    width: 50px;
+    height: 50px;
+}
+
+.aside-entry-text {
+    margin-left: 10px;
+}
+
+.aside-followers {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-followers img {
+    width: 200px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.aside-followers button {
+    margin: auto;
+    background-color: #5690f0;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+
 
 /* Footer css */
